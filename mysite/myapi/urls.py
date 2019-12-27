@@ -16,5 +16,3 @@ urlpatterns = [
 # urlpatterns = [
 #     path('heroes/', views.HeroViewSet)
 # ]
-#
-#
