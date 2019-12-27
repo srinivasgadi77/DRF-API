@@ -5,6 +5,7 @@ from . import views
 routers = routers.DefaultRouter()
 routers.register(r'heroes', views.HeroViewSet)
 #
+# this is URL part
 urlpatterns = [
     path('',include(routers.urls)),
     path('api-auth/',include('rest_framework.urls',
